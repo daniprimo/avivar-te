@@ -1,0 +1,30 @@
+.imagem-sobrenos {
+    width: 200;
+    padding-top: 50px;
+    height: '100%';
+
+
+}
+
+.texto-sobrenos {
+    padding-top: 55px;    
+}
+
+.card-do-texto {
+    padding-Right: '10%';
+    padding-Left: '10%';
+    font-size: 20px;
+    color: "#ffff";
+}
+
+@media (max-width: 700px) {
+    .imagem-sobrenos {
+        justify-items: end;
+        width: 100px;
+        height: '100%';   
+    }
+
+    .texto-sobrenos{
+        font-size: 5px;
+    }
+}
