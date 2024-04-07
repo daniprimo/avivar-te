@@ -6,9 +6,13 @@ import BarraPrincipal from './components/menu-bar/app-bar';
 function App() {
   return (
     <>
-      {/*Aqui vai o barre de menu*/}
-        <BarraPrincipal />
-        <Rotas />  
+       <header id='header'> 
+        {/*Aqui vai o barre de menu*/}
+        <Container>
+          <BarraPrincipal />
+          <Rotas />
+        </Container>
+       </header>  
     </>
   );
 }
