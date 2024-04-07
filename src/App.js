@@ -2,6 +2,7 @@ import { Container } from '@mui/material';
 import './App.css';
 import Rotas from './rotas/rotas';
 import BarraPrincipal from './components/menu-bar/app-bar';
+import Footer from './components/footer/footer';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Container>
           <BarraPrincipal />
           <Rotas />
+          <Footer />
         </Container>
        </header>  
     </>
